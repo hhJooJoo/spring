@@ -9,6 +9,6 @@ public class HomeController {
 	@GetMapping("/")		// GetMapping : GET으로 들어오는 요청을 처리하는 구문 
 	public String home() {	// ()안의 URL로 매칭되는 요청을 아래 메서드로 처리
 		
-		return "home";		// 반환하는 문자열이 view name이 된다
+		return "home";		// 반환하는 문자열이 view name이 된다.
 	}
 }
